@@ -1,0 +1,40 @@
+﻿MAPPING ECOMM
+SKIP_HEADER=YES
+INDEX|FIELD|MAPCOLNUM|Default|RemarkRef
+0|ordernumber|1||ว่าง ไว้หมายเลขคำสั่งซื้อของ Bplus
+1|di_date|3||วันที่ทำการสั่งซื้อ -> ใช้ concept เดียวกันกับ Lazada
+2|di_ref|||NULL ให้ระบบ run ให้
+3|vat_date|||NULL เวลาการชำระสินค้า
+4|vat_ref|||NULL วันที่ใบกำกับภาษี
+5|ap_code|||มาจาก Bplus - ITEMXXX-00001
+6|trd_sh_code|30||เลขอ้างอิง Parent SKU เฉพาะที่อยู่ใน ()
+7|trd_sh_qty|33||Qty in SKU  AG * AD ลงท้ายด้วย xFy ,2 Pcs
+8|trd_sh_free|33|| Qty in SKU ลงท้ายด้วย 8F4 ซื้อ 8 แถม 4
+9|trd_sh_unitprice|| เอาราคาต่อหน่วย Bplus
+10|trd_discount|34|| เอาราคาต่อหน่วย BPlus - ราคาขาย (AH) แล้วเติม B
+11|wlcode1||KWE-ONLINE|KWE-ONLINE
+12|wlcode2|||NULL ตน.เก็บโอนย้าย
+13|totdiscount|||NULL ส่วนลดท้ายบิล
+14|remark|1|A|หมายเหตุท้าบบิล Order Number + Date
+15|orderchanel||ECOMM|
+16|custid|||Run หมายเลขเองนับต่อจากเลขสุดท้าย
+17|custname|15|| 15+16 First + Last  Name (Shipping)ชื่อผู้รับ
+18|custaddr1|17||Address '60 char max, ตัดจังหวัด กับอำเภอ/เขตออก
+19|custaddr2||| City (Shipping)  เขต/อำเภอ
+20|custaddr3|18|| NULL
+21|province||| NULL 
+22|phonenum|14||Phone (Billing)
+23|faxnum||-|Fixed Value
+24|postcode|20||Postcode (Shipping) รหัสไปรษณีย์
+25|branchnum||-|Fixed Value
+26|taxcode||-|Fixed Value
+27|debtortype||05.06|Fixed Value
+28|custgroup||4010|Fixed Value
+29|custtype||0|Fixed Value
+30|custzone||0|Fixed Value
+31|divisioncode||30 SA|Fixed Value
+32|selarea||0|Fixed Value
+33|selid||0|Fixed Value
+34|paidperiod||0|Fixed Value
+35|creditbalance||0|Fixed Value
+36|custname|16|| 15+16 First + Last  Name (Shipping)ชื่อผู้รับ

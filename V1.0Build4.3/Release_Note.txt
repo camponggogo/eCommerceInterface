@@ -1,0 +1,6 @@
+eCommerceInterfaceV1.0Build4.3  6 Feb 2021
+1. AlterView เพื่อแสดงวันที่ ใน file ที่จะ Export Order
+2. ปรับ เพิ่ม 1 บรรทัด ในไฟล์ \Config\MAPPING_CUST_ECOMM.txt
+   - Fix Code ให้ Load Cutomer Name ของไฟล์ Web โดยใช้  Name= Col15+" " +Col16
+   แล้วแสดง Cust Name ในไฟล ที่จะ Export New Customer
+

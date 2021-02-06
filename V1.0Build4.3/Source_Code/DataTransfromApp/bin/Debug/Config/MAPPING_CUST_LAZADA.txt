@@ -1,0 +1,41 @@
+﻿MAPPING CUTS_LAZADA
+SKIP_HEADER=NO
+INDEX|FIELD|MAPCOLNUM|Default|RemarkRef
+0|ordernumber|9||Order Number
+1|di_date|7||NULLวันที่เอกสาร
+2|di_ref|9||Created atเลขที่เอกสาร
+3|vat_date|7||NULLวันที่ใบกำกับภาษี
+4|vat_ref|||มาจาก Bplus เช่น LAZADA-00001เลขที่ใบกำกับภาษี
+5|ap_code|||Item Name เฉพาะในวงเล็บ ถ้ามีแถมจะต้องสร้างอีก record นึง แล้วเป็น item ที่ลงท้ายด้วย Fรหัสลูกหนี้/เจ้าหนี้
+6|trd_sh_code|45|AS|Item Nameรหัสซื้อขายสินค้า
+7|trd_sh_qty|45|AS|Item Nameจำนวนสินค้า
+8|trd_sh_free|45|AS|มาจาก Bplusจำนวนแถม
+9|trd_sh_unitprice|42|AP|Unit Price - ราคาต่อหน่วย ต่อท้ายด้วย Bราคาต่อหน่วย
+10|trd_discount|||
+11|wlcode1||KWE-ONLINE|KWE-ONLINEส่วนลดต่อรายการ NULLตน.เก็บ
+12|wlcode2|||NULLตน.เก็บโอนย้าย
+13|totdiscount|65||ส่วนลดท้ายบิล
+14|remark|9|I|Order Number/หมายเหตุท้าบบิล
+15|orderchanel||LAZADA|LAZADA
+16|custid|||Run หมายเลขเองนับต่อจากเลขสุดท้ายGennerate ID
+17|custname|14||Shipping Name
+18|custaddr1|15||Shipping AddressAddress '60 char max
+19|custaddr2|16||Shipping Address 2Tambon
+20|custaddr3|18||Shipping Address 4District
+21|province|17||Shipping Address 3ตัดก่อน '/'
+22|phonenum|20||Shipping Phone Numberตัด 66 ออก
+23|faxnum||-|-
+24|postcode|19||Shipping Address 5
+25|branchnum|38||Branch Number
+26|taxcode|37||Tax Code
+27|debtortype||05.01|Fixed value
+28|custgroup||4001|Fixed value
+29|custtype||0|Fixed value
+30|custzone||0|Fixed value
+31|divisioncode||30 SA|Fixed value
+32|selarea||0|Fixed value
+33|selid||0|Fixed value
+34|paidperiod||0|Fixed value
+35|creditbalance||0|Fixed value
+36|TrackingCode|52|0|Fixed value
+37|TrackingCode|43|0|shippingfee
