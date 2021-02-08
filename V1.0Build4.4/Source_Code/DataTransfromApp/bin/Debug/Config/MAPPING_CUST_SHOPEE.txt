@@ -1,0 +1,40 @@
+﻿MAPPING SHOPEE
+SKIP_HEADER=YES
+INDEX|FIELD|MAPCOLNUM|Default|RemarkRef
+0|ordernumber|1||หมายเลขคำสั่งซื้อของ Bplus
+1|di_date|5||วันที่ทำการสั่งซื้อ -> ใช้ concept เดียวกันกับ Lazada
+2|di_ref|||NULL ให้ระบบ run ให้
+3|vat_date|5||เวลาการชำระสินค้า
+4|vat_ref|||NULL
+5|ap_code|||มาจาก Bplus - SHOPEE-00001
+6|trd_sh_code|12||เลขอ้างอิง Parent SKU
+7|trd_sh_qty|12||เลขอ้างอิง Parent SKU (หลัง = ) x จำนวน (Column S)
+8|trd_sh_free|||เลขอ้างอิง Parent SKU (หลัง = ) x จำนวน (Column S)
+9|trd_sh_unitprice|16||Q 17 or R 18|ราคาตั้งต้น หรือราคาขาย
+10|trd_discount|||ใช้ concept กับ Lazada
+11|wlcode1||KWE-Online|KWE-Online ส่วนลดต่อรายการ NULLตน.เก็บ
+12|wlcode2|32||NULL
+13|totdiscount|31||ค่าคอมมิชชั่น + ค่าธุรกรรมการชำระเงิน
+14|remark|1|A|หมายเลขคำสั่งซื้อของ Shopee
+15|orderchanel||SHOPEE|
+16|custid|||Run หมายเลขเองนับต่อจากเลขสุดท้าย
+17|custname|38||ชื่อผู้รับ
+18|custaddr1|41||Address '60 char max, ตัดจังหวัด กับอำเภอ/เขตออก
+19|custaddr2|||Tambon กรณีที่อยู่ 1 เกิน 60 char
+20|custaddr3|44||District  เขต/อำเภอ
+21|province|43||ตัดก่อน '/'
+22|phonenum|39||ตัด 66 ออก
+23|faxnum||-|Fixed Value
+24|postcode|45|รหัสไปรษณีย์
+25|branchnum||-|Fixed Value
+26|taxcode||-|Fixed Value
+27|debtortype||05.06|Fixed Value
+28|custgroup||4010|Fixed Value
+29|custtype||0|Fixed Value
+30|custzone||0|Fixed Value
+31|divisioncode||30 SA|Fixed Value
+32|selarea||0|Fixed Value
+33|selid||0|Fixed Value
+34|paidperiod||0|Fixed Value
+35|creditbalance||0|Fixed Value
+36|shippingfee|34||shippingfee

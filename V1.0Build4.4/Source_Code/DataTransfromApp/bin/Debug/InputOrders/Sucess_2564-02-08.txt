@@ -1,0 +1,20 @@
+8_2_2564:00:04:06: Success SaveCustinorders_Temp() :Loading Cust in orders_Temp:Success, File From:LAZADA
+8_2_2564:00:06:16: Check FoundC:\Users\I_kon K\source\repos\gitPKBKK\eCommerceInterfaceV1.0Build4.1\DataTransfromApp\bin\Debug\InputOrders\LAZADA_Orders.xlsx
+8_2_2564:00:06:16: Failed Load CustinOder_Temp : Clear Temp alrady
+8_2_2564:00:11:06: Success SaveCustinorders_Temp() :Loading Cust in orders_Temp:Success, File From:LAZADA
+8_2_2564:00:13:45: Check FoundC:\Users\I_kon K\source\repos\gitPKBKK\eCommerceInterfaceV1.0Build4.1\DataTransfromApp\bin\Debug\InputOrders\LAZADA_Orders.xlsx
+8_2_2564:00:13:45: Failed Load CustinOder_Temp : Clear Temp alrady
+8_2_2564:00:17:14: Success SaveCustinorders_Temp() :Loading Cust in orders_Temp:Success, File From:LAZADA
+8_2_2564:00:17:32: Check FoundC:\Users\I_kon K\source\repos\gitPKBKK\eCommerceInterfaceV1.0Build4.1\DataTransfromApp\bin\Debug\InputOrders\LAZADA_Orders.xlsx
+8_2_2564:00:17:32: Failed Load CustinOder_Temp : Clear Temp alrady
+8_2_2564:00:27:40: Check FoundC:\Users\I_kon K\source\repos\gitPKBKK\eCommerceInterfaceV1.0Build4.1\DataTransfromApp\bin\Debug\InputOrders\LAZADA_Orders.xlsx
+8_2_2564:00:27:40: Failed Load CustinOder_Temp : Clear Temp alrady
+8_2_2564:00:29:47: Check FoundC:\Users\I_kon K\source\repos\gitPKBKK\eCommerceInterfaceV1.0Build4.1\DataTransfromApp\bin\Debug\InputOrders\LAZADA_Orders.xlsx
+8_2_2564:00:29:48: Failed Load CustinOder_Temp : Clear Temp alrady
+8_2_2564:00:31:09: Success SaveCustinorders_Temp() :Loading Cust in orders_Temp:Success, File From:LAZADA
+8_2_2564:00:32:01: Check FoundC:\Users\I_kon K\source\repos\gitPKBKK\eCommerceInterfaceV1.0Build4.1\DataTransfromApp\bin\Debug\InputOrders\LAZADA_Orders.xlsx
+8_2_2564:00:32:02: Failed Load CustinOder_Temp : Clear Temp alrady
+8_2_2564:00:33:11: Success SaveCustinorders_Temp() :Loading Cust in orders_Temp:Success, File From:LAZADA
+8_2_2564:00:39:58: Check FoundC:\Users\I_kon K\source\repos\gitPKBKK\eCommerceInterfaceV1.0Build4.1\DataTransfromApp\bin\Debug\InputOrders\LAZADA_Orders.xlsx
+8_2_2564:00:40:00: Failed Load CustinOder_Temp : Clear Temp alrady
+8_2_2564:00:41:07: Success SaveCustinorders_Temp() :Loading Cust in orders_Temp:Success, File From:LAZADA

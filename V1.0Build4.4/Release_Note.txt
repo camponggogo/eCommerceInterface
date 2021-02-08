@@ -1,0 +1,4 @@
+eCommerceInterfaceV1.0Build4.3  7 Feb 2021
+1. แก้ Bug Load Lazada ไม่ครบ
+2. แก้ Bug Load Lazada Item Code ไม่ถูก
+

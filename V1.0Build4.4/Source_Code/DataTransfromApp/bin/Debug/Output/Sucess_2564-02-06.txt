@@ -1,0 +1,6 @@
+6_2_2564:22:14:51: Export mastcustomers Completed
+6_2_2564:22:21:41: Export New customers Completed
+6_2_2564:22:21:49: Export New customers Completed
+6_2_2564:22:51:23: Export New customers Completed
+6_2_2564:22:51:25: Export New customers Completed
+6_2_2564:22:56:12: Export New customers Completed
